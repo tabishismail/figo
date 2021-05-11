@@ -305,6 +305,9 @@ body{
         background-size:350px;
         height: 350px;
     }
+    .subs-div{
+        width: 50%;
+    }
 }
     
 @media screen and (max-width: 850px){
@@ -324,6 +327,9 @@ body{
       width: 28% !important;
       padding: 0.7rem 0.45rem !important;
       font-size: 12px;
+    }
+    .subs-div{
+        width: 100%;
     }
     
 }
