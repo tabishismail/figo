@@ -18,17 +18,37 @@ body{
     padding: 10px 05% !important;
     background-color: rgb(243, 242, 242);
 }
+.wel-img{
+    width: 100%;
+}
+.head-wel-1{
+    color: orange;
+    font-family: "brandon";
+}
+.head-wel-2{
+    font-family: "brandon";
+    font-weight: 900;
+    padding-left: 0px;
+    font-size: 40px;
+    margin-bottom: 25px;
+}
+.wel-p{
+    margin-bottom: 50px;
+}
+
 .slide{
     position: relative;
     top: 70px;
     display: flex;
     align-items: center;
     height: 400px;
-    background-image: url(../images/edited.png);
+    background-image: url(../images/2.svg);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: right;
+    margin-bottom: 110px;
 }
+
 .slide-content >h1{
     font-family: "brandon";
     font-weight: 900;
@@ -44,12 +64,18 @@ body{
     justify-content: space-around !important;
     
     }
+
 .btn{
     width: 25% !important;
     padding: 0.7rem 0.75rem !important;
     vertical-align: top !important;
     box-shadow: 2px 2px 10px 1px rgb(153, 153, 153);
 }
+
+.my-btn{
+    font-size: 12px !important;
+}
+
 .input-group > .custom-file,
 .input-group > .custom-select,
 .input-group > .form-control,
@@ -110,8 +136,7 @@ body{
     .slide{
         background-size:350px;
         height: 350px;
-        }
-    
+    }
 }
     
 @media screen and (max-width: 850px){
@@ -120,7 +145,6 @@ body{
         height: 300px;
         }
 }
-
 @media screen and (max-width: 800px){
     .slide-content >h1{
         font-size: 40px;
@@ -131,8 +155,9 @@ body{
     .btn{
       width: 28% !important;
       padding: 0.7rem 0.45rem !important;
-      font-size:12px;
+      font-size: 12px;
     }
+    
 }
 @media screen and (max-width: 670px){
     .slide-content >h1{
