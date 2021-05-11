@@ -2,21 +2,155 @@
     font-family: "brandon";
     src: url(../fonts/HVD\ Fonts\ -\ BrandonText-Regular.otf);
 }
+body{
+    background-color: rgb(243, 242, 242) !important;
+}
 .navbar-expand-sm .navbar-collapse {
     justify-content: flex-end !important;
+    /* padding: 0 100px; */
+}
+
+
+.container-fluid{
+    padding: 0 05% !important;
+}
+.fixed-top{
+    padding: 10px 05% !important;
+    background-color: rgb(243, 242, 242);
 }
 .slide{
     position: relative;
-    top: 50px;
+    top: 70px;
     display: flex;
     align-items: center;
     height: 400px;
-    background-image: url(../images/2.svg);
+    background-image: url(../images/edited.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: right;
 }
 .slide-content >h1{
     font-family: "brandon";
-    font-weight: bolder;
+    font-weight: 900;
+    padding-left: 0px;
+    font-size: 60px;
+}
+.slide-content >p{
+    font-family: "brandon";
+}
+.input-group .input-group-lg .mb-3{
+    width: 100% !important;
+    display: flex !important;
+    justify-content: space-around !important;
+    
+    }
+.btn{
+    width: 25% !important;
+    padding: 0.7rem 0.75rem !important;
+    vertical-align: top !important;
+    box-shadow: 2px 2px 10px 1px rgb(153, 153, 153);
+}
+.input-group > .custom-file,
+.input-group > .custom-select,
+.input-group > .form-control,
+.input-group > .form-control-plaintext {
+    position: relative;
+    margin-bottom: 0;
+    width: 70% !important;
+    display: inline !important;
+    border: none !important;
+    box-shadow: 2px 2px 10px 1px rgb(153, 153, 153);
+}
+
+
+
+@media screen and (min-width: 1200px){
+    .slide-content >h1{
+        font-size: 80px;
+    }
+    .slide-content >p{
+        font-size: 30px;
+    }
+    .slide{
+        background-size:800px;
+        height: 800px;
+        }   
+}
+@media screen and (max-width: 1600px){
+    .slide{
+        background-size:600px;
+        height: 600px;
+        }
+}
+@media screen and (max-width: 1300px){
+    .slide{
+        background-size:500px;
+        height: 500px;
+        }
+        .slide-content >p{
+            font-size: 25px;
+        }
+}
+@media screen and (max-width: 1200px){
+    .slide{
+        background-size:400px;
+        height: 400px;
+        }
+        .slide-content >h1{
+            font-size: 70px;
+        }
+    }
+@media screen and (max-width: 1000px){
+    .slide-content >h1{
+        font-size: 50px;
+    }
+    .slide-content >p{
+        font-size: 20px;
+    }
+    .slide{
+        background-size:350px;
+        height: 350px;
+        }
+    
+
+}
+    
+@media screen and (max-width: 850px){
+    .slide{
+        background-size:300px;
+        height: 300px;
+        }
+}
+@media screen and (max-width: 800px){
+    .slide-content >h1{
+        font-size: 40px;
+    }
+    .slide-content >p{
+        font-size: 15px;
+    }
+}
+@media screen and (max-width: 670px){
+    .slide-content >h1{
+        font-size: 30px;
+    }
+    .slide-content >p{
+        font-size: 12px;
+    }
+}
+    
+@media screen and (max-width: 550px){
+    .slide{
+        background-size:300px;
+        height: 300px;
+        text-align: center;
+        background-size: cover;
+        background-image: url(../images/bg-small.png);
+        }
+    .slide-content >h1{
+        font-size: 40px;
+        text-align: center;
+    }
+    .slide-content >p{
+        font-size: 18px;
+    }
 }
