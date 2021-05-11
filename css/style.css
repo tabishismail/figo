@@ -82,7 +82,20 @@ body{
 .card-1{
     align-items: center;
     height: auto;
-    background-color:rgb(243, 242, 242);
+    background-color:rgb(255, 251, 251);
+    margin-bottom: 10px;
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+ }
+ .card-2{
+    align-items: center;
+    height: auto;
+    background-color:rgb(255, 251, 251);
     margin-bottom: 10px;
     position: relative;
     display: -ms-flexbox;
@@ -99,6 +112,17 @@ body{
 }
 .card-1:hover{
     border-bottom: 5px solid green;
+}
+.card-2:hover{
+    cursor: pointer;
+}
+.read-more{
+    color: orange;
+    font-size: 12px;
+    font-weight: bold;
+}
+.read-more:hover{
+    color: green;
 }
 .card-body-1 {
     -ms-flex: 1 1 auto;
@@ -118,6 +142,12 @@ body{
     width: 100%;
     /* margin: 10px; */
 }
+.card-img-top-2{
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 05px;
+    /* margin: 10px; */
+}
 .card-title {
     text-align: center !important;
     font-family: "brandon";
@@ -128,8 +158,17 @@ body{
     margin: 0 !important;
     padding: 0 !important;
 }
+.card-title-2 {
+    text-align: left;
+    font-family: "brandon";
+    margin: 10px 0px !important;
+    padding: 0 !important;
+}
 .card-text {
     text-align: center !important;
+}
+.card-text-2 {
+    text-align: left;
 }
 .card-text-1 {
     text-align: center !important;
