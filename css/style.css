@@ -106,7 +106,9 @@ body{
     min-height: 0.1px;
     /* padding: 1.25rem; */
 }
-
+.bur{
+    margin-top: 10px;
+}
 .card-img-top{
     width: 25% !important;
     padding: 10px;
