@@ -3,7 +3,7 @@
     src: url(../fonts/HVD\ Fonts\ -\ BrandonText-Regular.otf);
 }
 body{
-    background-color: rgb(243, 242, 242) !important;
+    background-color: rgb(255, 251, 251) !important;
 }
 .navbar-expand-sm .navbar-collapse {
     justify-content: flex-end !important;
@@ -16,7 +16,7 @@ body{
 }
 .fixed-top{
     padding: 10px 05% !important;
-    background-color: rgb(243, 242, 242);
+    background-color: rgb(255, 251, 251);
 }
 .wel-img{
     width: 100%;
