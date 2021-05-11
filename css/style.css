@@ -20,6 +20,7 @@ body{
 }
 .wel-img{
     width: 100%;
+    border-radius: 15px;
 }
 .head-wel-1{
     color: orange;
@@ -35,7 +36,46 @@ body{
 .wel-p{
     margin-bottom: 50px;
 }
+.my-col-1{
+    margin-bottom: 110px;
+}
+.my-col-2{
+    text-align: center !important;
+    margin-bottom: 20px;
+}
+.my-col-3{
+    margin-bottom: 40px;
+}
+.head-2{
+    font-weight: bold;
+    font-family: "brandon";
+    font-size: 45px;
+    word-spacing: 5%;
+}
+.card{
+   align-items: center;
+   /* height: 250px; */
+   background-color:rgb(243, 242, 242) !important ;
+   margin-bottom: 10px;
+}
+.card:hover{
+    border-bottom: 5px solid green;
+    background-color: white !important;
+    box-shadow: 0px 0px 10px 2px lightgrey ;
+}
 
+.card-img-top{
+    width: 25% !important;
+    padding: 10px;
+    margin: 10px;
+}
+.card-title {
+    text-align: center !important;
+    font-family: "brandon";
+}
+.card-text {
+    text-align: center !important;
+}
 .slide{
     position: relative;
     top: 70px;
@@ -73,7 +113,7 @@ body{
 }
 
 .my-btn{
-    font-size: 12px !important;
+    font-size: 10px !important;
 }
 
 .input-group > .custom-file,
