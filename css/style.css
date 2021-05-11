@@ -112,7 +112,6 @@ body{
         height: 350px;
         }
     
-
 }
     
 @media screen and (max-width: 850px){
@@ -121,12 +120,18 @@ body{
         height: 300px;
         }
 }
+
 @media screen and (max-width: 800px){
     .slide-content >h1{
         font-size: 40px;
     }
     .slide-content >p{
         font-size: 15px;
+    }
+    .btn{
+      width: 28% !important;
+      padding: 0.7rem 0.45rem !important;
+      font-size:12px;
     }
 }
 @media screen and (max-width: 670px){
