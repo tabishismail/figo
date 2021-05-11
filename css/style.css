@@ -1,0 +1,22 @@
+@font-face {
+    font-family: "brandon";
+    src: url(../fonts/HVD\ Fonts\ -\ BrandonText-Regular.otf);
+}
+.navbar-expand-sm .navbar-collapse {
+    justify-content: flex-end !important;
+}
+.slide{
+    position: relative;
+    top: 50px;
+    display: flex;
+    align-items: center;
+    height: 400px;
+    background-image: url(../images/2.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.slide-content >h1{
+    font-family: "brandon";
+    font-weight: bolder;
+}
