@@ -46,6 +46,27 @@ body{
 .my-col-3{
     margin-bottom: 40px;
 }
+
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+    color: orange !important;
+    background-color: white !important;
+    border-left: 4px solid orange !important;
+    font-style: normal;
+    font-weight: 900;
+}
+.nav-pills .nav-link {
+    border-radius: 0 !important;
+    border-left:4px solid lightgrey !important ;
+    color: lightgrey;
+}
+.nav-pills>a:hover {
+    color: orange !important;
+    background-color: white !important;
+    border-left: 4px solid orange !important;
+    font-style: normal;
+    font-weight: 900;
+}
 .head-2{
     font-weight: bold;
     font-family: "brandon";
@@ -58,10 +79,32 @@ body{
    background-color:rgb(243, 242, 242) !important ;
    margin-bottom: 10px;
 }
+.card-1{
+    align-items: center;
+    height: auto;
+    background-color:rgb(243, 242, 242);
+    margin-bottom: 10px;
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+ }
 .card:hover{
     border-bottom: 5px solid green;
     background-color: white !important;
     box-shadow: 0px 0px 10px 2px lightgrey ;
+}
+.card-1:hover{
+    border-bottom: 5px solid green;
+}
+.card-body-1 {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    min-height: 0.1px;
+    /* padding: 1.25rem; */
 }
 
 .card-img-top{
@@ -69,12 +112,27 @@ body{
     padding: 10px;
     margin: 10px;
 }
+.card-img-top-1{
+    width: 100%;
+    /* margin: 10px; */
+}
 .card-title {
     text-align: center !important;
     font-family: "brandon";
 }
+.card-title-1 {
+    text-align: center !important;
+    font-family: "brandon";
+    margin: 0 !important;
+    padding: 0 !important;
+}
 .card-text {
     text-align: center !important;
+}
+.card-text-1 {
+    text-align: center !important;
+    color: green;
+    font-weight: 700;
 }
 .slide{
     position: relative;
